@@ -20,5 +20,5 @@ export default defineConfig({
             //protocolImports: true,
         }
     )],
-    base: "https://github.com/plasmawario/AE_LIVE_SHOWS_TABLE",
+    base: "./",
 })
