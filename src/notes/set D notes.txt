@@ -1,0 +1,54 @@
+//heart of a galaxy
+001 01 - nebulae from a galaxy
+    02 - waves from a galaxy
+    03 - beat from a galaxy
+    04 - pulse from a galaxy
+    05 - black hole
+    06 - photon sphere
+    07 - nebulae accretion
+    08 - nebulae space
+    09 - nebulae cruse
+//solar system
+002 01 - solar cruse
+    02 - solar flare
+    03 - solar wind
+    04 - planetoid
+    05 - solar nebulae
+    06 - magnetic field
+    07 - stellar club
+//drowning club tribass
+003 01 - club breath
+    02 - club open
+    03 - club alien
+    04 - club acid
+    05 - club tribass
+    06 - acid tribass
+    07 - dark tribass
+    08 - darkacid bass
+    09 - club fuck
+//Temple
+004 01 - club temple
+    02 - gong temple
+    03 - jungle temple
+    04 - temple ruins
+//FUCKERY
+005 01 - fuckery init
+    02 - fuckery acid drums
+    03 - fuckery acid fuck
+    04 - FUCKERY PRIMER
+    05 - FUCKERY WARM-UP
+    06 - FUCKERY SHIT
+    07 - FUCKERY FUCK
+    08 - FUCKERY MAX
+    09 - fuckery of the void
+//void
+006 01 - galaxy of the void
+    02 - heaven of the void
+    03 - fractal of the void
+//fractal
+007 01 - fractal init
+    02 - dark fractal
+    03 - evil fractal
+    04 - evil fractal stasis
+    05 - evil fractal nebulae
+    06 - evil fractal closer

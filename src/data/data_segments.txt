@@ -1,0 +1,160 @@
+# The format for defining Segments is as follows:
+#
+# UNIQUE_ID, SEGMENT_NAME, HEX_COLOR_START, HEX_COLOR_END, COLOR_GLOW_OUTER_AMT, COLOR_GLOW_INNER_AMT, NOTE
+#
+# UNIQUE_ID -               The unique identifier for this segment. It should be different from every other segment, and it can be any string
+# SEGMENT_NAME -            The "fan-name" to give this segment. It will be displayed as an "alt-name" to replace its simple numerical name when applicable
+# HEX_COLOR_START -         The color, as a hexadecimal, to make the glow effect on the left side of the cell
+# HEX_COLOR_END -           The color, as a hexadecimal, to make the glow effect on the right side of the cell
+# COLOR_GLOW_OUTER_AMT -    The distance of how far the glow color should spread on the outside of this segment's cell
+# COLOR_GLOW_INNER_AMT -    The distance of how far the glow color should spread on the inside of this segment's cell, starting from the center. To completely fill the cell with the glow color, set this to a high value
+# NOTE -                    Additional notes for this segment
+# 
+# The segments are to be inputted in chronological order starting from the very beginning of the performance, to the very end. This is to ensure that each segment is numbered appropriately, as they will
+# have their numerical ID automatically assigned based on their position in this file, starting from 0. Every segment MUST be placed on a new line, that is to say, no 2 segments are to be placed on the
+# same line in the file. Each piece of segment data MUST ALSO be seperated by a comma, as per the format given above. Any format errors in a segment will result in that segment not being read, followed
+# by a console message in your browser.
+
+# A
+se_wdbt, Wind Beat, #000000, #000000, 5, 0
+se_ctwd, Cadet Wind, #000000, #000000, 5, 0
+se_ctrn, Cadet Rain, #000000, #000000, 5, 0
+se_mobe, Myco Breeze, #000000, #000000, 5, 0
+se_mose, Myco Subsurface, #000000, #000000, 5, 0
+se_mode, Myco Dance, #000000, #000000, 5, 0
+se_more, Myco Rave, #000000, #000000, 5, 0
+se_moct, Myco Cadet, #000000, #000000, 5, 0
+
+se_ntwd, Night Wind, #000000, #000000, 5, 0
+se_lg, Lightning, #000000, #000000, 5, 0
+se_ntsm, Night Storm, #000000, #000000, 5, 0
+se_??1?, ????, #000000, #000000, 5, 0
+
+# B
+se_rsio, Raindrops Intro, #224fe2, #224fe2, 1, 0
+se_rsmt, Raindrops Mist, #224fe2, #224fe2, 1, 0
+se_myst, Misty Street, #224fe2, #224fe2, 1, 0
+se_myps, Misty Plains, #224fe2, #224fe2, 1, 0
+se_fyps, Foggy Plains, #224fe2, #224fe2, 1, 0
+se_fyfd, Foggy Field, #224fe2, #224fe2, 1, 0
+se_mystl, Misty Starlight, #224fe2, #224fe2, 1, 0
+se_staa, Starlight Aura, #224fe2, #224fe2, 1, 0
+
+se_gejs, Gurgle Jingles, #224fe2, #0d35b9, 1, 0
+se_gewe, Gurgle Wave, #0d35b9, #0d35b9, 1, 0
+se_gebm, Gurgle Beam, #0d35b9, #0d35b9, 1, 0
+se_csjm, Chimes Jam, #0d35b9, #3899da, 1, 0
+se_pyjm, Party Jam, #3899da, #3899da, 1, 0
+se_hnjm, Horn Jam, #3899da, #3899da, 1, 0
+se_anjm, Alien Jam, #3899da, #3899da, 1, 0
+
+se_dkanct, Dark Alien Concert, #3899da, #5682e2, 1, 0
+se_anctws, Alien Concert Waves, #5682e2, #5682e2, 1, 0
+se_anctpe, Alien Convert Pause, #5682e2, #5682e2, 1, 0
+se_anws, Alien Waves, #5682e2, #3899da, 1, 0
+se_anwebs, Alien Wave Breaks, #3899da, #3899da, 1, 0
+se_anat, Alien Ambient, #3899da, #30a1e2, 1, 0
+
+se_djkkbt, DJ Kick Beat, #30a1e2, #133baa, 1, 0
+se_djstbt, DJ Soft Beat, #10318d, #10318d, 1, 0
+se_djcrbt, DJ Clear Beat, #10318d, #1841b3, 1, 0
+se_djcebt, DJ Chime Beat, #1841b3, #2162da, 1, 0
+se_djshbt, DJ Scratch Beat, #2162da, #0b25b9, 1, 0
+se_djsebt, DJ Sparse Beat, #0b25b9, #0c36a8, 1, 0
+se_djfebt, DJ Fissle Beat, #0c36a8, #0813aa, 1, 0
+
+se_deio, Drane Intro, #0813aa, #0813aa, 1, 0
+se_dpse, Deep Space, #0000ff, #0000ff, 1, 0
+se_despe, Drane Space, #0000ff, #0000ff, 1, 0
+se_dexy, Drane X-Ray, #0000ff, #0000ff, 1, 0
+se_xysh, X-Ray Scratch, #0000ff, #0000ff, 1, 0
+se_desae, Drane Sparse, #0000ff, #0606d4, 1, 0
+se_deoo, Drane Outro, #0606d4, #0606a0, 1, 0
+se_decr, Drane Closer, #0606a0, #0606a0, 1, 0
+
+# C
+se_bncs, Broken Claps, #0606a0, #4040fa, 1, 0
+se_bnpo, Broken Piano, #4040fa, #4040fa, 1, 0
+se_poje, Piano Jingle, #4040fa, #3eb2e7, 1, 0
+se_ctfe, Comet Flute, #3eb2e7, #3eb2e7, 1, 0
+se_ctse, Comet Surface, #3eb2e7, #37dfeb, 1, 0
+se_ctvs, Comet Voices, #37dfeb, #3edfc4, 1, 0
+se_cthn, Comet Heaven, #18e0ae, #18e0ae, 1, 0
+
+se_hydj, Heavenly DJ, #18e0ae, #84ffcc, 1, 0
+se_hyss, Heavenly Strings, #84ffcc, #84ffcc, 1, 0
+se_hybs, Heavenly Bubbles, #84ffcc, #84ffcc, 1, 0
+se_hyardk, Heavenly After Dark, #84ffcc, #53e99e, 1, 0
+se_ardkxy, After Dark X-Ray, #53e99e, #27bd66, 1, 0
+se_stde, Spirit Dance, #27bd66, #21dd5a, 1, 0
+se_strl, Spirit Ritual, #21dd5a, #50df97, 1, 0
+se_stcn, Spirit Celebration, #50df97, #84ffcc, 1, 0
+se_gebt, Grave Beat, #1f60b6, #144e99, 1, 0
+se_gere, Grave Rave, #144e99, #238dca, 1, 0
+se_ccgr, Cosmic Glimmer, #238dca, #3e9cd3, 1, 0
+
+se_ccthl, Cosmic Thrill, #3e9cd3, #23cabc, 1, 0
+se_ccbe, Cosmic Barrage, #23cabc, #23cabc, 1, 0
+se_tlbs, Thrill Bubbles, #23cabc, #0e8b81, 1, 0
+se_betn, Bubble Transition, #0e8b81, #0e8b81, 1, 0
+se_ccan, Cosmic Acceleration, #66eeaa, #66eeaa, 1, 0
+se_cctal, Cosmic Travel, #66eeaa, #36cf88, 1, 0
+se_ccdn, Cosmic Dilation, #36cf88, #29db88, 1, 0
+se_ccin, Cosmic Inflation, #29db88, #45e2c0, 1, 0
+
+# D
+se_nefmagy, Nebulae from a Galaxy, #14ecec, #14ecec, 1, 0
+se_wsfmagy, Waves from a Galaxy, #14ecec, #14ecec, 1, 0
+se_btfmagy, Beat from a Galaxy, #14ecec, #18cfcf, 1, 0
+se_pefmagy, Pulse from a Galaxy, #18cfcf, #1dacac, 1, 0
+se_bkhe, Black Hole, #00ffff, #00ffff, 1, 0
+se_pnse, Photon Sphere, #00ffff, #16c1df, 1, 0
+se_nean, Nebulae Accretion, #16c1df, #00ffff, 1, 0
+se_nese, Nebulae Space, #1dacac, #1dacac, 1, 0
+se_nece, Nebulae Cruse, #0ecff1, #0ecff1, 1, 0
+
+se_srce, Solar Cruse, #0ecff1, #0f92dd, 1, 0
+se_srfe, Solar Flare, #1ebbeb, #1ebbeb, 1, 0
+se_srwd, Solar Wind, #1ebbeb, #26b6c9, 1, 0
+se_plan, Planetoid, #26b6c9, #26b6c9, 1, 0
+se_srne, Solar Nebulae, #2fdee4, #2fdee4, 1, 0
+se_mcfd, Magnetic Field, #2fdee4, #2fdee4, 1, 0
+se_srcb, Stellar Club, #2fdee4, #2280d8, 1, 0
+
+se_cbbh, Club Breath, #2280d8, #2280d8, 1, 0
+se_cbon, Club Open, #2280d8, #2280d8, 1, 0
+se_cban, Club Alien, #2280d8, #2234d8, 1, 0
+se_cbad, Club Acid, #2234d8, #2234d8, 1, 0
+se_cbtibs, Club Tri-Bass, #2234d8, #0c19ca, 1, 0
+se_adtibs, Acid Tri-Bass, #0c19ca, #0c19ca, 1, 0
+se_dktibs, Dark Tri-Bass, #0c19ca, #0c19ca, 1, 0
+se_dkadbs, Dark-Acid Bass, #0c19ca, #1253df, 1, 0
+se_cbfk, Club Fuck, #1253df, #146dc0, 1, 0
+
+se_cbte, Club Temple, #146dc0, #21aed1, 1, 0
+se_ggte, Gong Temple, #21aed1, #21aed1, 1, 0
+se_jete, Jungle Temple, #21aed1, #21aed1, 1, 0
+se_tern, Temple Ruins, #21aed1, #21aed1, 1, 0
+
+se_fyit, Fuckery Init, #21aed1, #1db2e0, 1, 0
+se_fyadds, Fuckery Acid Drums, #1db2e0, #1db2e0, 1, 0
+se_fyadfk, Fuckery Acid fuck, #1db2e0, #1db2e0, 1, 0
+se_fypr, FUCKERY PRIMER, #1db2e0, #15d0ff, 1, 0
+se_fywmup, FUCKERY WARM-UP, #15d0ff, #00ffff, 1, 0
+se_fyst, FUCKERY SHIT, #00ffff, #00ffff, 1.5, 0
+se_fyfk, FUCKERY FUCK, #00ffff, #00ffff, 2, 0
+se_fymx, FUCKERY MAX, #00ffff, #00ffff, 2, 0
+se_fyoftevd, fuckery of the void, #00ffff, #000000, 1, 0
+
+se_gyoftevd, galaxy of the void, #000000, #000000, 0, 0
+
+# E
+se_hnoftevd, heaven of the void, #000000, #000000, 0, 0
+se_floftevd, fractal of the void, #000000, #000000, 0, 0
+
+se_flit, fractal init, #12dde4, #1386c9, 1, 0
+se_dkfl, dark fractal, #1386c9, #1568a0, 1, 0
+se_elfl, evil fractal, #1568a0, #101b7c, 1, 0
+se_elflss, evil fractal stasis, #101b7c, #4d0000, 0, 0
+se_elflne, evil fractal nebulae, #4d0000, #290000, 0, 0
+se_elflcr, evil fractal closer, #290000, #000000, 0, 0

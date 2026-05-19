@@ -1,0 +1,39 @@
+# The format for defining Splits is as follows:
+#
+# UNIQUE_ID, SPLIT_NAME | SEGMENT_ID | SEGMENT_ID | ...
+#
+# UNIQUE_ID -               The unique identifier for this split. It should be different from every other split, and it can be any string
+# SPLIT_NAME -              The "fan-name" to give this split.
+# SEGMENT_ID -              The unique IDs of the segments to include in this split
+# 
+# The splits are to be inputted in chronological order starting from the very first split. This is to ensure that each split is numbered appropriately, as they will
+# have their numerical ID automatically assigned based on their position in this file, starting from 0. Each segment must also be inputted in its chronological order within each split.
+# Each segment MUST be placed at the end of each split line, in chronological order. Each piece of split data MUST ALSO be seperated by a comma,
+# as per the format given above. Any format errors in a split will result in that split not being read, followed by a console message in your browser.
+# lastly, make sure that a vertical bar character is inserted to seperate the split metadata and the segment information.
+
+# A
+
+
+# B
+sp_mtsy, Midnight Sky | se_rsio, se_rsmt, se_myst, se_myps, se_fyps, se_fyfd, se_mystl, se_staa
+sp_asjm, Abyss Jam | se_gejs, se_gewe, se_gebm, se_csjm, se_pyjm, se_hnjm, se_anjm
+sp_anct, Alien Concert | se_dkanct, se_anctws, se_anctpe, se_anws, se_anwebs, se_anat
+sp_dj, DJ | se_djkkbt, se_djstbt, se_djcrbt, se_djcebt, se_djshbt, se_djsebt, se_djfebt
+sp_de3, Drane 3 | se_deio, se_dpse, se_despe, se_dexy, se_xysh, se_desae, se_deoo, se_decr
+
+# C
+sp_tete, Three Tone | se_bncs, se_bnpo, se_poje, se_ctfe, se_ctse, se_ctvs, se_cthn
+sp_ae, Afterlife | se_hydj, se_hyss, se_hybs, se_hyardk, se_ardkxy, se_stde, se_strl, se_stcn, se_gebt, se_gere, se_ccgr
+sp_al, Astral | se_ccthl, se_ccbe, se_tlbs, se_betn, se_ccan, se_cctal, se_ccdn, se_ccin
+
+# D
+sp_htofagy, Heart of a Galaxy | se_nefmagy, se_wsfmagy, se_btfmagy, se_pefmagy, se_bkhe, se_pnse, se_nean, se_nese, se_nece
+sp_srsm, Solar System | se_srce, se_srfe, se_srwd, se_plan, se_srne, se_mcfd, se_srcb
+sp_dgcbts, Drowning Club Tri-Bass | se_cbbh, se_cbon, se_cban, se_cbad, se_cbtibs, se_adtibs, se_dktibs, se_dkadbs, se_cbfk
+sp_te, Temple | se_cbte, se_ggte, se_jete, se_tern
+sp_fy, Fuckery | se_fyit, se_fyadds, se_fyadfk, se_fypr, se_fywmup, se_fyst, se_fyfk, se_fymx, se_fyoftevd
+sp_vd, Void | se_gyoftevd, se_hnoftevd, se_floftevd
+sp_fl, Fractal | se_flit, se_dkfl, se_elfl, se_elflss, se_elflne, se_elflcr
+
+# E

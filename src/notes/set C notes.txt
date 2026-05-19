@@ -1,0 +1,48 @@
+//DJ
+001 06 - alien ambient
+002 01 - DJ kick beat
+    02 - DJ soft beat
+    03 - DJ clear beat
+    04 - DJ chime beat
+    05 - DJ scratch beat
+    06 - DJ sparse beat
+    07 - DJ fissle beat
+//drane 3
+003 00 - drane intro      (only used in releases that start with drane 3)
+    01 - deep space
+    02 - drane space
+    03 - drane x-ray
+    04 - x-ray scratch
+    05 - drane sparse
+    06 - drane outro
+//three tone
+004 01 - broken claps
+    02 - broken piano
+    03 - piano jingle
+    04 - comet flute
+    05 - comet surface
+    06 - comet voices
+    07 - comet heaven
+//afterlife
+005 01 - heavenly DJ
+    02 - heavenly strings
+    03 - heavenly bubbles
+    04 - heavenly after dark
+    05 - after dark x-ray
+    06 - spirit dance
+    07 - spirit ritual
+    08 - spirit celebration
+    09 - grave beat
+    10 - grave rave
+    11 - cosmic glimmer
+//astral
+006 01 - cosmic thrill
+    02 - cosmic barrage
+    03 - thrill bubbles
+    04 - bubble transition
+    05 - cosmic acceleration
+    06 - cosmic travel
+    07 - cosmic dilation
+    08 - cosmic inflation
+//heart of a galaxy
+007 01 - nebulae from a galaxy

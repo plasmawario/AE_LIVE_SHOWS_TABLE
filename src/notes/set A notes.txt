@@ -1,0 +1,42 @@
+//elementary
+001 01 - photon streaks
+    02 - particle streaks
+    03 - nucleus dance
+    04 - zero-point / h
+//cavern city
+002 01 - cavern party
+    02 - cavern ?
+    03 - cavern cathedral
+    04 - cavern jungle
+    05 - cavern glimmer
+    06 - alien caverns
+    07 - alien cave shower
+//deep dark??
+003 01 - acid gurgle
+    02 - retro acid?
+    03 - acid break
+    04 - acid void
+    05 - retro jam
+    06 - retro future
+    07 - free tunnel
+//
+004 01 - haunted maze
+    02 - maze hazard
+    03 - heiroglyphs
+    04 - pillars
+    05 - maze rising
+    06 - maze surface
+//myco-cadet
+005 01 - wind beat
+    02 - cadet wind
+    03 - cadet rain
+    04 - myco breeze
+    05 - myco subsurface
+    06 - myco dance
+    07 - myco rave
+    08 - myco cadet
+//
+006 01 - night wind
+    02 - night lightning
+    03 - night storm
+    04 - /

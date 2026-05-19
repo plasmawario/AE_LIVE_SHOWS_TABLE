@@ -1,0 +1,27 @@
+@import "tailwindcss";
+/*@source "./data/data_segments.txt";
+@source "./data/data_sets.txt";*/
+
+@theme {
+    --color-ae2022_black: #111111;
+    --color-ae2022_black-alt: #212121;
+    --color-ae2022_blue: #2244ff;
+
+    --button_glow_inset: inset -14vmin 0vmin 2vmin 1.25vmin var(--color-ae2022_black), inset 14vmin 0vmin 2vmin 1.25vmin var(--color-ae2022_black);
+}
+
+/*#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+*/

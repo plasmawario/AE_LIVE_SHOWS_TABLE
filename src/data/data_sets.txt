@@ -1,0 +1,15 @@
+# The format for defining Releases is as follows:
+#
+# SET_NAME | RELEASE_NAME | RELEASE_NAME | ...
+#
+# SET_NAME -                The name for this grouping of releases.
+# RELEASE_NAME -            The name for the release to add to the set.
+# 
+# Every set MUST be placed on a new line, that is to say, no 2 sets are to be placed on the same line in the file. Each piece of set data MUST ALSO be seperated by a vertical bar,
+# as per the format given above. Any format errors in a set will result in that set not being read, followed by a console message in your browser.
+
+# A, #000000 | AE_MILAN_010722 | AE_ATHENS_050722 | AE_HELSINKI_110922 | AE_LONDON_071022_A | AE_BURGEN_021122 | AE_TURIN_041122 | AE_MELBORNE_250823
+B, #0000DD | AE_LONDON_071022_B
+# | AE_VENICE_261023
+C, #45ffc1 | AE_SYNDEY_270823 | AE_DUBLIN_291023 | AE_BRUSSELS_040424 | AE_PARIS_060424 | AE_RENNES_070424 | AE_BARCELONA_090424 | AE_MADRID_100424 | AE_KREMS_270424
+D, #4fffff | AE_LISBON_120424_B | AE_LYON_070524

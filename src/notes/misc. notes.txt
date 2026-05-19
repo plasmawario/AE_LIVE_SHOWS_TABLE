@@ -1,0 +1,47 @@
+project name
+    set ID
+        release 1
+        release 2
+        release 3
+            split 1
+            split 2
+            split 3
+                segment 1
+                segment 2
+                segment 3
+
+segment
+    alt. ID (string)
+    color left
+    color right
+    time data
+
+split
+    array of segment
+        time data
+
+release
+    array of split
+
+set
+    array of releases
+
+
+
+ex:
+ae_2022 -
+    set A
+    set B
+    set C
+    set D
+        AE_LISBON_B_2024
+        AE_LYON_2024
+            001 (nebulae from a galaxy)
+            002 (stellar cruse)
+            003 (nebulae from a star)
+                01 (_)
+                02 (_)
+                03 (_)
+                04 (_)
+                    0:23:34
+            ...
